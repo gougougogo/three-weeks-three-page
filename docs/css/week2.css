@@ -1,3 +1,21 @@
-h1 {
-  color: blue;
+#flex-contianer
+{
+  display:flex;
+  justify-content: center;
+  border:1px solid red;
+  width:70%; 
+  margin:0px auto;
+}
+#leftNav
+{
+width:18%;
+border:1px solid red;
+height:20px;
+}
+
+#rightContent
+{
+  width:82%;
+  border:1px solid blue;
+  height:20px;
 }
