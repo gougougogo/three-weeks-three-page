@@ -1,21 +1,441 @@
-#flex-contianer
+.flex-contianer
 {
   display:flex;
+  flex-direction: row;
   justify-content: center;
-  border:1px solid red;
-  width:70%; 
+  width:80%; 
   margin:0px auto;
+  padding-top:50px;
 }
 #leftNav
 {
-width:18%;
-border:1px solid red;
-height:20px;
+  width:18%;
+  flex-direction: column;
+  padding-left: 30px;
 }
 
 #rightContent
 {
   width:82%;
-  border:1px solid blue;
-  height:20px;
+}
+
+.logo
+{
+  width:100px;
+  height:100px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.Trastemakers
+{
+  color: rgb(60, 151, 122);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  font-size: 15px;
+  margin: 0px; 
+  text-decoration:none;
+}
+.nopadding
+{
+  padding:0px;
+}
+
+.navitem
+{
+  padding-top:15px;
+}
+
+.navtext
+{
+  margin-top:50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height:50px;
+  
+}
+
+.text
+{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgba(14, 13, 13, 0.589);
+  font-size:12px;
+  border-bottom:1px dashed rgba(14, 13, 13, 0.589);
+}
+
+.joinButton
+{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  width:65%;
+  margin-top:10px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.join-the-conversion
+{
+  color: rgb(60, 151, 122);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px; 
+  padding-left:2px;
+}
+
+.facebookContent
+{
+  color:rgba(7, 7, 7, 0.897);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11px;
+  width:65%;
+  padding-top: 10px;
+}
+
+.foodsense
+{
+  background: url("../img/week2/foodsense.jpg");
+  background-repeat: round;
+  height: 338px;
+  position: relative;
+  display:flex;
+  justify-content: flex-end;
+  
+}
+
+.Read-Learn-Share
+{
+  background-color: white;
+  width:178px;
+  height: 38px;
+  bottom:99px;
+  left: 0px;
+  position: absolute;
+  display:flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.Get-daliy
+{
+  background-color: black;
+  width:380px;
+  height: 38px;
+  left:0px;
+  position: absolute;
+  bottom:61px;
+  display:flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: white;
+  justify-content: center;
+}
+
+.authorlabel
+{
+  background-color: rgba(223, 217, 217, 0.911);
+  width: 75px;
+  height: 15px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  bottom:10px;
+  right:10px;
+}
+
+.authorname
+{
+  font-size: 7px;
+}
+
+.Feature
+{
+  display: flex;
+  justify-content: space-between;
+}
+.fourFeature
+{
+  height:90px;
+  width:25%;
+  background-color: rgba(233, 245, 241, 0.952);
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  border-right: 1px solid #D3EDE9;
+}
+
+.featuretext
+{
+  margin: 0px;
+  padding-left: 5px;
+  font-size: 11px;
+  color: rgb(60, 151, 122);
+}
+
+.focus
+{
+  background-color: #D3EDE9;
+}
+
+.EmailContent
+{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dashed rgb(224, 221, 221);
+  border-bottom: 1px dashed rgb(224, 221, 221);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.emailtext
+{
+  width: 50%;
+  font-size: 12px;
+  margin: 0px;
+}
+.emailButton
+{
+  margin: 0px;
+  
+  
+}
+.emailinput
+{
+  width: 25%;
+  margin: 0px;
+}
+
+.foods
+{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.foodsContent
+{
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.imgBorder
+{
+  border: 1px solid #E5E5E5;
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+.foodImg
+{
+  width: 100%;
+ 
+}
+
+.Date
+{
+  color:#AAA;
+  font-size: .875em;
+  margin-top: 10px;
+}
+
+.foodcontent
+{
+  margin:0px; 
+  font-size: .875em;
+}
+
+.footer
+{
+  border-top: 2px solid #E5E5E5;
+  width:80%; 
+  margin:0px auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+}
+
+.footertext
+{
+  font-size: 10px;
+  padding-left: 5px;
+  
+}
+.footertext-color
+{
+  color: #AAA;
+}
+
+.copyRight
+{
+  flex-grow:1;
+}
+
+
+@media screen and (max-width: 960px)
+{
+    .flex-contianer {
+      flex-direction: column;
+    }
+
+    .rightContent {
+      width: 100%;
+    }
+
+    .leftNav {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 0;
+    }
+
+    .navtext {
+      display: none;
+    }
+    
+    .navlist {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      justify-content: space-between;
+    }
+
+    .navitem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navlist .iconfont {
+      font-size: 24px;
+    }
+
+    .featuretext
+  {
+    display:none;
+    height:0px;
+  }
+
+  .fourFeature
+  {
+    align-items: center;
+    height:35px;
+  }
+  
+}
+
+@media screen and (max-width: 600px)
+{
+  .Get-daliy  {
+    bottom:0px;
+    width:100%;
+  }
+
+  .Read-Learn-Share
+  {
+    bottom:38px;
+    width:100%;
+  }
+
+  .Feature
+  {
+    display: none;
+  }
+  .authorlabel
+  {
+    background-color: white;
+    bottom:-20px;
+  }
+  .EmailContent
+  {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right:0px;
+    padding-left:0px;
+  }
+
+  .iconfont
+  {
+    width: 10%;
+  }
+
+  .emailtext
+  {
+    width:90%;
+  }
+  .emailinput
+  {
+    margin-top:10px;
+    width:60%;
+  }
+
+  .emailButton
+  {
+    margin-top:10px;
+    width:20%;
+    margin-right: 40px;
+  }
+  .foods
+  {
+    flex-wrap:wrap;
+  }
+  .foodsContent
+  {
+    width:100%;
+  }
+
+  .navitem i{
+    display: none;
+  }
+
+  .leftNav
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+  }
+
+.logo
+  {
+
+    order: 1;
+    margin-top: 15px;
+  }
+  .navlist
+  {
+
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    box-shadow: 0 1px 0 #F5F5F5;
+
+  }
+  .flex-contianer
+  {
+    padding-top:0px;
+  }
+  .Trastemakers
+  {
+    text-align: center;
+  }
+
+  .authorname::before {
+    content: '*';
+    display: inline-block;
+    padding-right: 4px;
+  }
 }
