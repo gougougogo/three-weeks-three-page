@@ -1,3 +1,588 @@
-h1 {
-  color: grey;
+.section1
+{
+  width:100%;
+  height: 100vh;
+  background-image: url("../img/week3/home_bg.jpg");
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+}
+
+.montains
+{
+  background-image: url("../img/week3/home_cont_bg.jpg");
+  background-repeat: no-repeat;
+  z-index: 0;
+  width:100%;
+  height:100%;
+  display: flex;
+}
+
+.leftContent
+{
+  width:50%;
+  /* height:100%; */
+  position: relative;
+}
+
+.cloud-left
+{
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+.cloud-middle
+{
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
+.cloud-right
+{
+  position: absolute;
+  top: 300px;
+  left: 550px;
+}
+.people
+{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background: url("../img/week3/sp2.png");
+  width: 480px;
+  height: 348px;
+  background-repeat: no-repeat;
+}
+
+.rightContent
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width:68%;
+  /* height: 100%; */
+}
+.rightContent h3
+{
+  font-size: 24px;
+  color: white;
+  margin-top:0px;
+  width:100%;
+  text-align: center;
+  margin:0px;
+}
+.rightContent h1{
+  font-size: 70px;
+  color: white;
+  margin:0px;
+}
+
+.home-skills
+{
+  color:white;
+  width: 55%;
+}
+.cf
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  font-size: 16px;
+}
+.text
+{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.text p{
+  width:55%;
+  color:white;
+  text-align: center;
+}
+
+.MeetUsInPerson
+{
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid white;
+    padding: 8px 18px;
+    margin-top: 20px;
+    color:white;
+}
+
+.section2
+{
+  width:100%;
+  height: 100vh;
+  background-image: url("../img/week3/med_bg.jpg");
+  background-repeat: repeat;
+  display: flex;
+}
+
+.section2 .leftContent
+{
+  width:43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding:90px 0px;
+}
+
+.section2 .rightContent
+{
+  width:57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.item
+{
+  width:45%;;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Years
+{
+  background-color: #5e4d5c;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  color:white;
+  font-size: 22px;
+}
+.YearContent
+{
+  width: 64%;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #5e4d5c;
+}
+
+.timeLineTitle{
+  font-family: monospace;
+  width:100%;
+  margin-top:5px;
+  margin-bottom: 5px;
+  color:#5e4d5c;
+  font-size: 16px;
+}
+.timeLineText
+{
+  font-family: monospace;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color:white;
+}
+.timeLine {
+  width: 1px;
+  flex-grow: 1;
+  margin-right: 15%;
+  border-left: 1px dashed #5e4d5c;
+}
+
+.midlle1_sprite{
+  background: url("../img/week3/midlle1_sprite.png");
+  width: 300px;
+  height: 348px;
+  background-repeat: no-repeat;
+  margin-right:286px;
+  margin-bottom: 100px;
+}
+
+.section3
+{
+  width:100%;
+  height: 100vh;
+  background-image: url("../img/week3/about_bg.jpg");
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.trees
+{
+  background-image: url("../img/week3/trees-marta.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  width:100%;
+  height:100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+}
+
+.TreeRoot
+{
+  background-image: url("../img/week3/meet_us_cont_bg.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  width:130%;
+  height:83px;
+  display: flex;
+  position: absolute;
+  bottom:0px;
+  right:0px;
+  z-index:-1;
+}
+.TreesContent
+{
+  width: 761px;
+  height: 432px;
+  margin-left: 206px;
+  background-image: url(../img/week3/meet_sprite.png);
+  background-position: 347px -27px;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+  z-index: 1;
+  display: flex;
+
+}
+.treesText
+{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.treesText div
+{
+  width:15%;
+  display: flex;
+  align-items: center;
+}
+.treesText img
+{
+  width: 24px;
+  height: 24px;
+}
+.TreesContent h2
+{
+  margin: 0px;
+  color: white;
+  height: 6%;
+  width: 45%;
+  font-family: sans-serif;
+}
+.treesText h5
+{
+  margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.treesText p
+{
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-family: fantasy;
+}
+.treesText h3
+{
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-top: 0px;
+  width: 100%;
+}
+.role
+{
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.clickhere
+{
+  margin-bottom: 150px;
+}
+
+.section4
+{
+  width: 100%;
+  height: 250vh;
+  background: url("../img/week3/work_bg.jpg");
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.services
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+
+.services div
+{
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.services div p
+{
+  text-align: center;
+  color:white;
+}
+
+.services div div
+{
+  border-bottom: 3px solid white;
+  width: 20%;
+  font-family: sans-serif;
+}
+
+.services h2
+{
+  color: white;
+  font-family: fantasy;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.servicesItem
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.workItem
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+.workItem h1
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.workItem ul
+{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.workItem ul li
+{
+  color: white;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.workshop
+{
+  width:95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.workImg
+{
+  width: 23%;
+  height: 15%;
+  border: 5px solid white;
+  margin-bottom: 10px;
+}
+.workshopButton
+{
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 8px 18px;
+  margin-top: 20px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.section5
+{
+  width: 100%;
+  height: 100vh;
+  background: url("../img/week3/med2_bg.jpg");
+  background-repeat: repeat;
+}
+
+.middle2-characters
+{
+  background-image: url("../img/week3/med2_cont_bg.jpg");
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+  display: flex;
+  align-self: center;
+}
+
+.air_balloon
+{
+  width:60%;
+  height:80%;
+}
+
+.middle2-characters_text
+{
+  width: 40%;
+  align-self: center;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle2-characters_text div
+{
+  height: 22%;
+  display: flex;
+  margin: 20px;
+}
+.icon
+{
+  height:20px;
+  margin-right: 10px;
+}
+
+.middle2-characters_text div .Twitter-List
+{
+  background: rgba(40, 29, 12, 0.15);
+  padding: 15px;
+  color: #2b182c;
+  width: 90%;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.Twitter-List img
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+/* .middle2-characters_text div .triangle{
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-right: 0px solid rgba(40, 29, 12, 0.15);
+  } */
+
+  
+.middle2-characters_text div .Twitter_tittle
+  {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 10px;
+    width: 82%;
+  }
+  .Twitter-List .icon
+  {
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+  }
+  
+  .Twitter_screenName
+  {
+    color: #8899A6;
+    font-size: 14px;
+  }
+  .Description
+  {
+    font-size: 14px;
+    width: 82%;
+  }
+  .Twitter-List h1
+  {
+    width:95%;
+    border-bottom: 1px solid #b5a991;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .Twitter-List p
+  {
+    width:95%;
+  }
+  
+  .section6
+  {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/week3/contact_bg.jpg");
+    background-repeat: repeat;
+  }
+
+  .backgroundImg
+{
+  background-image: url(../img/week3/contact_cont_bg.jpg);
+  background-repeat: no-repeat;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+._block
+{
+  width:30%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+  padding-left: 100px;
+}
+._block p
+{
+  width:80%;
+}
+
+._img
+{
+  background: url(../img/week3/contact_sprite.png);
+  width: 380px;
+  height: 490px;
+  background-repeat: no-repeat;
 }
