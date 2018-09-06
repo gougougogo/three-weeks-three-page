@@ -430,6 +430,7 @@
   background: transparent;
   color: white;
   font-size: 14px;
+  align-self: flex-end;
 }
 
 .section5
@@ -565,12 +566,10 @@
 
 ._block
 {
-  width:30%;
+  width: 30%;
   color: white;
   display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-bottom: 200px;
   padding-left: 100px;
 }
@@ -585,4 +584,8 @@
   width: 380px;
   height: 490px;
   background-repeat: no-repeat;
+}
+._block .HIREMEbutton
+{
+  margin-right: 105px;
 }
