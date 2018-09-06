@@ -54,6 +54,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width:85%;
 }
 
 .text
@@ -69,7 +70,7 @@
   display:flex;
   justify-content: flex-start;
   align-items: center;
-  width:65%;
+  width:100%;
   margin-top:10px;
   border: 1px solid lightgrey;
   border-radius: 3px;
@@ -88,7 +89,7 @@
   color:rgba(7, 7, 7, 0.897);
   font-family: 'Times New Roman', Times, serif;
   font-size: 11px;
-  width:65%;
+  width:100%;
   padding-top: 10px;
 }
 
